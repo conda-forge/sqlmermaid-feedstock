@@ -1,5 +1,5 @@
 {% set name = "sqlmermaid" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sqlmermaid-{{ version }}.tar.gz
-  sha256: 9bf0a75b6f0d0b5b029a7fcb9b36b92e8c8e02b64e2470bbed1af47c6033c240
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sqlmermaid-{{ version }}.tar.gz
+  sha256: bfa89a21f1e355ed8d09256722b5144af7d2520ec4a025dd2559c071a30810a4
 
 build:
   noarch: python
